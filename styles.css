@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html{
+min-height: 100%;
+font-family: 'Roboto', sans-serif;
+}
+body{
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+background-image: linear-gradient(to bottom right, #CAD5E2, #758283);
+font-size: 19px;
+  
+  
+}
+.heading{
+  margin-left: 4%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.part-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.letter-body{
+    width: 45%;
+    margin-left: 41%;
+    
+    
+}
+
+.part-x{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 9.5%;
+}
+
+h5:hover{
+  color:#6A1B4D;
+  font-size: 22px;
+  animation-name: grow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes grow {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.4;
+  }
+}
